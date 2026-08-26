@@ -59,6 +59,22 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Calculator surface tokens */
+  --color-calc-surface: var(--calc-surface);
+  --color-calc-surface-foreground: var(--calc-surface-foreground);
+  --color-calc-display: var(--calc-display);
+  --color-calc-display-foreground: var(--calc-display-foreground);
+  --color-calc-key: var(--calc-key);
+  --color-calc-key-foreground: var(--calc-key-foreground);
+  --color-calc-key-active: var(--calc-key-active);
+  --color-calc-operator: var(--calc-operator);
+  --color-calc-operator-foreground: var(--calc-operator-foreground);
+  --color-calc-accent: var(--calc-accent);
+  --color-calc-accent-foreground: var(--calc-accent-foreground);
+  --color-calc-muted: var(--calc-muted);
+  --color-calc-muted-foreground: var(--calc-muted-foreground);
+  --color-calc-shadow: var(--calc-shadow);
 }
 
 :root {
@@ -95,6 +111,22 @@
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
+
+  /* Calculator palette: clean white with a rad coral accent */
+  --calc-surface: oklch(1 0 0);
+  --calc-surface-foreground: oklch(0.129 0.042 264.695);
+  --calc-display: oklch(1 0 0);
+  --calc-display-foreground: oklch(0.15 0.04 260);
+  --calc-key: oklch(0.97 0.005 260);
+  --calc-key-foreground: oklch(0.2 0.03 260);
+  --calc-key-active: oklch(0.93 0.01 260);
+  --calc-operator: oklch(0.94 0.015 260);
+  --calc-operator-foreground: oklch(0.25 0.04 260);
+  --calc-accent: oklch(0.62 0.18 25);
+  --calc-accent-foreground: oklch(1 0 0);
+  --calc-muted: oklch(0.96 0.005 260);
+  --calc-muted-foreground: oklch(0.55 0.04 260);
+  --calc-shadow: oklch(0 0 0 / 0.08);
 }
 
 .dark {
@@ -130,6 +162,22 @@
   --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.551 0.027 264.364);
+
+  /* Calculator palette stays clean white even in dark mode */
+  --calc-surface: oklch(1 0 0);
+  --calc-surface-foreground: oklch(0.129 0.042 264.695);
+  --calc-display: oklch(1 0 0);
+  --calc-display-foreground: oklch(0.15 0.04 260);
+  --calc-key: oklch(0.97 0.005 260);
+  --calc-key-foreground: oklch(0.2 0.03 260);
+  --calc-key-active: oklch(0.93 0.01 260);
+  --calc-operator: oklch(0.94 0.015 260);
+  --calc-operator-foreground: oklch(0.25 0.04 260);
+  --calc-accent: oklch(0.62 0.18 25);
+  --calc-accent-foreground: oklch(1 0 0);
+  --calc-muted: oklch(0.96 0.005 260);
+  --calc-muted-foreground: oklch(0.55 0.04 260);
+  --calc-shadow: oklch(0 0 0 / 0.2);
 }
 
 @layer base {
